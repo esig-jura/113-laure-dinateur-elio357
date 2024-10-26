@@ -87,12 +87,12 @@ header {
     margin-bottom: 30px;
 }
 
-header.logo {
+header .logo {
     text-align: center;
     margin:0;
 }
 
-header.nom {
+header .nom {
     font-family: "Changa One", cursive;
     font-weight: 400;
     color: #2ec4b6;
@@ -101,7 +101,7 @@ header.nom {
     line-height: 0.8;
 }
 
-header.metier{
+header .metier{
     color: #e71d36;
     margin-top:-25px ;
     font-weight: bold;
@@ -113,7 +113,7 @@ header nav {
 }
 header nav ul {
     padding: 0;
-    list-style: none;
+    list-style-type: none;
 }
 header nav ul li {
     display: inline-block;
