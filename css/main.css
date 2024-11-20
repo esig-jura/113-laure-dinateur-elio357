@@ -119,10 +119,60 @@ header nav ul li {
     display: inline-block;
 }
 header nav ul li a {
+    display: inline-block;
     color: #fdfffc;
     font-weight: 800;
     padding: 15px 10px;
 }
+header nav ul li a:hover
+{
+    color: #2ec4b6;
+}
+
 header nav ul li a[href="index.html"]{
     display: none
 }
+/* contenu principal */
+main{
+    margin: 0.5%;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 50px;
+}
+footer nav ul {
+    padding: 0; /* supprime la marge par défaut */
+    list-style-type: none; /* supprime les puces */
+}
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav ul img {
+    width: 50px;
+    margin: 0 15px;
+
+    filter: grayscale(100%);
+    transition: filter 500ms;
+}
+
+footer nav ul img:hover {
+    filter: grayscale(0%);
+}
+
+/* page infos */
+
+.page-infos img.laure {
+    border-radius: 50%;
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-infos h1 {
+    text-align: center;
+}
+
