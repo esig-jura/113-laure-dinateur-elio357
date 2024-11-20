@@ -176,3 +176,9 @@ footer nav ul img:hover {
     text-align: center;
 }
 
+/*Page infos */
+.page-accueil ul.realisations {
+    list-style-type: none;
+    padding: 0;
+
+}
