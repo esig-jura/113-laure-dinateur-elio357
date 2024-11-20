@@ -176,9 +176,34 @@ footer nav ul img:hover {
     text-align: center;
 }
 
-/*Page infos */
+/*Page accueil */
 .page-accueil ul.realisations {
     list-style-type: none;
     padding: 0;
-
+    display:flex; /* active flex */
+    flex-wrap: wrap; /* autorise le saut à la ligne suivante*/
+    gap: 40px 20px; /*espace 40 px verticla et 20px horizontale */
 }
+
+.page-accueil ul.realisations li {
+    background-color: #e7e9eb;
+    flex-basis: calc(50% - 20px); /*pas oublier de soustraire la marge (gap) */
+    flex-grow: 1;/* authorise de prendre plus de plase si disponible */
+    transition:transform 0.2s;
+}
+.page-accueil ul.realisations li:hover{
+    transform: scale(1.1);
+}
+
+.page-accueil ul.realisations li a {
+    color: #011627;
+}
+
+.page-accueil ul.realisations li figure {
+    margin: 0;
+}
+
+.page-accueil ul.realisations li figcaption {
+    padding: 10px;
+}
+
